@@ -1,0 +1,17 @@
+---
+layout: post-wide
+hero-bg-color: "#eee"
+date:   2020-03-25 09:35:05
+categories: pizza
+
+uid: speciale
+title:  "Granello Speciale"
+worktype: "pizza"
+role: pizza
+
+company_description: pelat, sir, sampinjoni, sunka, kulen, slanina, masline, suvi vrat, origano
+
+mala: 560 rsd
+velika: 780 rsd
+porodicna: 1050 rsd
+---
