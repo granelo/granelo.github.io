@@ -3,5 +3,5 @@ description: Pizza Servis
 author: Granelo Pizza Servis
 analytics: UA-96559329-1
 exclude: [ _design, README ]
-# baseurl: "http://granelo.github.io/"
-baseurl: "/"
+baseurl: "https://granelo.github.io/"
+#baseurl: "/"
