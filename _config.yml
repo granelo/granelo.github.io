@@ -4,4 +4,4 @@ author: Granelo Pizza Servis
 analytics: UA-96559329-1
 exclude: [ _design, README ]
 baseurl: "https://granelo.github.io/"
-#baseurl: "/"
+permalink: slug
