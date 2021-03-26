@@ -1,6 +1,6 @@
 ---
 layout: post-wide
-hero-bg-color: "#eee"
+
 date:   2020-03-25 09:35:01
 categories: pizza
 

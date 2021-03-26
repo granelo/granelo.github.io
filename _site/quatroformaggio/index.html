@@ -70,17 +70,17 @@ $$$:                      X$$$$$$$$$N..:dN
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>{{ site.name }}</title>
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="author" content="{{ site.author }}">
+  <title>Granello</title>
+  <meta name="description" content="Pizza Servis">
+  <meta name="author" content="Granelo Pizza Servis">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://vjs.zencdn.net/5-unsafe/video-js.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="{{ site.baseurl }}all.css">
+  <link rel="stylesheet" href="/all.css">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
   <link rel="icon" href="/favicon.ico?v=2" type="image/x-icon" />
 
-  <script src="{{ site.baseurl }}js/modernizr-2.0.6.min.js"></script>
+  <script src="/js/modernizr-2.0.6.min.js"></script>
 
 </head>
 
@@ -123,7 +123,63 @@ $$$:                      X$$$$$$$$$N..:dN
   <div id="container" class="clearfix">
     <div id="main" role="main" class="clearfix">
 
-      {{ content }}
+      <div id="post-container">
+  
+
+  <div class="post post-wide">
+    <div class="project-description">
+      <div class="row clearfix">
+
+        <div class="col">
+          <h2 class="project-title">Quatro formaggio</h2>
+          <h3>pizza</h3>
+          <a class="project-link" href="" target="_blank"></a>
+        </div>
+
+        <div class="col">
+          <h3>
+          </h3>
+          
+            <p>pelat, mocarela, gorgonzola, feta, trapist, origano</p>
+          
+
+          <div class="row">
+            
+              <div class="col">
+                <h3>Mala</h3>
+                <p>
+                  520 rsd
+                </p>
+              </div>
+            
+            
+              <div class="col">
+                <h3>Velika</h3>
+                <p>
+                  620 rsd
+                </p>
+              </div>
+            
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+
+
+
+
+  <a href="/bianca/" title="Bianca" class="next-project target"></a>
+
+
+  <a href="/quatrostagione/" title="Quatro Stagione" class="prev-project target"></a>
+
+
 
     </div>
     <footer>
@@ -134,9 +190,9 @@ $$$:                      X$$$$$$$$$N..:dN
 
   <script src="/js/jquery-1.10.2.min.js"></script>
   <script src="https://vjs.zencdn.net/7.2.4/video.js"></script>
-  <script defer src="{{ site.baseurl }}all.js"></script>
+  <script defer src="/all.js"></script>
   <script>
-    window._gaq = [['_setAccount','{{ site.analytics }}'],['_trackPageview'],['_trackPageLoadTime']];
+    window._gaq = [['_setAccount','UA-96559329-1'],['_trackPageview'],['_trackPageLoadTime']];
     Modernizr.load({
       load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
     });
