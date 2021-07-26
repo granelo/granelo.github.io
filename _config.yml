@@ -3,5 +3,5 @@ description: Pizza Servis
 author: Granelo Pizza Servis
 analytics: UA-96559329-1
 exclude: [ _design, README ]
-baseurl: "www.granello.rs/"
+baseurl: "https://www.granello.rs/"
 permalink: /:slug/
